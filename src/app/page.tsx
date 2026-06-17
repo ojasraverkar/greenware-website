@@ -122,6 +122,10 @@ export default function Home() {
                         <p className="mt-3 text-sm leading-6 text-[#667064]">
                           {product.idealFor}
                         </p>
+                        <div className="mt-4 flex items-center justify-between gap-4 text-sm text-[#475239]">
+                          <p className="font-medium">Quantity: {product.quantity} pcs</p>
+                          <p className="font-semibold text-lg text-[#1e3328]">₹{product.price}</p>
+                        </div>
                       </article>
                     ))}
                 </div>
