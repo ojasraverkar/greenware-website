@@ -1,0 +1,2 @@
+export type AnalyticsEvent = "product_view" | "add_to_quote" | "remove_from_quote" | "quote_started" | "quote_generated" | "whatsapp_clicked" | "event_form_started" | "event_form_submitted" | "filter_used" | "search_used";
+export function track(event: AnalyticsEvent, detail?: Record<string, string | number>) { if (typeof window !== "undefined") window.dispatchEvent(new CustomEvent("greenware:analytics", { detail: { event, ...detail } })); }

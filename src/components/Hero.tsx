@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowDownToLine, Phone } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -21,11 +21,11 @@ export default function Hero() {
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <a
-              href="/assets/greenware_catalogue_jun26.pdf"
+              href="#products"
               className="inline-flex h-12 items-center justify-center gap-2 rounded-[8px] bg-[#24543a] px-5 text-sm font-semibold text-white shadow-sm transition hover:bg-[#173d29]"
             >
-              View Catalogue
-              <ArrowDownToLine aria-hidden="true" className="h-4 w-4" />
+              Browse products
+              <ArrowRight aria-hidden="true" className="h-4 w-4" />
             </a>
             <a
               href="tel:+919850904972"

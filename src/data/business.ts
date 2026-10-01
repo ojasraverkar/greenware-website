@@ -1,0 +1,2 @@
+export const business = { name: "Greenware Sustainables", whatsappNumber: "919850904972", phone: "+91 98509 04972", alternatePhone: "+91 84460 56209", email: "greenware.sustainable@gmail.com", location: "Pune, Maharashtra", website: "https://greenware-website.vercel.app/" };
+export const whatsappUrl = (message: string) => `https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(message)}`;
