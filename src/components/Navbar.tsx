@@ -4,7 +4,7 @@ import Image from "next/image";
 const links = [
   { href: "#products", label: "Products" },
   { href: "#why-greenware", label: "Why Greenware" },
-  { href: "/assets/greenware_catalogue_jun26.pdf", label: "Catalogue" },
+  { href: "/assets/greenware_catalogue_sept26.pdf", label: "Catalogue" },
   { href: "#contact", label: "Contact" },
 ];
 
